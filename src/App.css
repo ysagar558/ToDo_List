@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Nunito:wght@400;600&display=swap');
+
+.container {
+    width: 90%;
+    height: 90%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.board {
+    background: linear-gradient(to bottom, #1b6ca8,#1b6ca8 10%, #17202A 100%);
+    position: relative;
+    width: 280px;
+    height: 90%;
+    float: left;
+    padding-top: 2%;
+
+    border-radius: 10px;
+    box-shadow: 10px 14px 14px -6px #000;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.board-title {
+    margin-top: 5%;
+
+    color: #000;
+
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.board div {
+    overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+    width: 1px;
+}
+
+.board div > div {
+    overflow: hidden;
+}
+
+.add {
+    background-color: #fff;
+    color: #17202A;
+    margin: 0px 0px 3% 80%;
+
+    border: 1px solid #17202A;
+    border-radius: 27%;
+
+    transition: .3s;
+}
+
+.add:hover {
+    color: aliceblue;
+    background-color: #17202A;
+
+    border: 1px solid aliceblue;
+
+    transform: scale(1.3);
+}
+
+[data-rbd-drag-handle-context-id="1"]:hover {
+    background-color: #ffffff;
+}

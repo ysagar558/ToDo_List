@@ -1,0 +1,90 @@
+.actions {
+    padding: 5px 0 0 0;
+    margin: auto;
+    width: 6%;
+    height: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-container {
+    display: flex;
+}
+
+.item-text {
+    padding: 0 7px;
+    margin: auto;
+    width: 94%;
+    max-height: 110px;
+
+    text-align: center;
+    font-size: 13px;
+    
+    overflow: scroll;
+    cursor: text;
+}
+
+div > a {
+    cursor: pointer;
+    transition: .2s;
+}
+
+div > a:hover {
+    transform: translate(-5px, 3px) rotate(180deg);
+}
+
+textarea {
+    width: 219px;
+    padding: 5px 22px;
+
+    border: none;
+
+    text-align: center;
+
+    font-family: Nunito;
+    font-size: 14px;
+}
+
+#hidden {
+    display: none;
+}
+
+#show {
+    display: inline;
+}
+
+.show {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.task-item
+{
+width: 60%;
+margin: auto;
+padding: 10px;
+border-radius: 10px;
+/* background-color: rgb(215, 223, 249); */
+
+}
+
+.task-item span{
+    padding: 10px;
+
+}
+
+.task-item button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(93, 0, 255);
+    color: white;
+}
+
+
